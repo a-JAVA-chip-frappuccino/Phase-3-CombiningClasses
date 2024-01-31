@@ -4,8 +4,6 @@ class Book:
         self._title = title
         self._author = author
 
-        # initialize a book's owner
-
     @property
     def title(self):
         return self._title
@@ -27,5 +25,3 @@ class Book:
             raise Exception("The author must be a string of greater than 4 characters!")
         
     author = property(get_author, set_author)
-
-    # set an owner to the book

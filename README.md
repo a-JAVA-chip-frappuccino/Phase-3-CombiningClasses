@@ -1,16 +1,20 @@
-# Phase 3 Lecture - Combining Multiple Classes and Objects
+# Phase 3 Lecture 4: Combining Multiple Classes and Objects
 
-## To get started:
+## Objectives
 
-0. Shell into correct Python version
-1. Run `pipenv install` to install the dependencies for the project
-2. Run `pipenv shell` to enter into the project's virtual environment/shell
+By the end of today's lecture, you will be able to perform basic inheritance as well as combine two classes together in a one-to-many relationship structure.
 
-## To run each group of files:
+## Lesson Plan
 
-1. `cd` into `src/classes/inheritance`
-2. Run `python Orange.py` or `python3 Orange.py`
-3. Run `python Void.py` or `python3 Void.py`
+0. Run `pipenv install` to install the dependencies and `pipenv shell` to enter the virtual environment.
+1. Define two classes, Orange and Void, that inherit from the Cat class. Override some methods and utilize some others.
+    - What is **inheritance**? What kind of hierarchy does it imply?
+    - What is **super**?
+2. Define two classes, Book and Owner, such that they reflect a one-to-many relationship.
+    - How can an Owner object contain many Book objects? How can we show the reflexive as well?
+    - How does `isinstance` function?
+    - Why do we need a separate file to test these?
 
-1. `cd` into `src/classes/relationships`
-2. Run `python relations.py` or `python3 relations.py`
+## Looking Ahead
+
+Tomorrow's lecture will introduce how to use the SSOT to combine multiple classes in a many-to-many relationship structure.
