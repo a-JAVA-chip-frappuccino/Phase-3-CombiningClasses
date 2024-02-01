@@ -1,7 +1,7 @@
 class Owner():
 
     def __init__(self, name):
-        self._name = name
+        self.name = name
 
     @property
     def name(self):

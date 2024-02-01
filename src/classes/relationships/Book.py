@@ -1,8 +1,8 @@
 class Book:
 
     def __init__(self, title, author):
-        self._title = title
-        self._author = author
+        self.title = title
+        self.author = author
 
     @property
     def title(self):
