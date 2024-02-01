@@ -25,3 +25,7 @@ class Cat():
 
     def __str__(self):
         return f"Name: {self.name}\nAge: {self.age}"
+    
+nudie = Cat("Marshall", 1)
+
+# nudie.meow()
